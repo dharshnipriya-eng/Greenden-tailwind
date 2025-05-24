@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--link tailwindcss-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--link product-->
+    <link rel="stylesheet" href="product.html">
+    <!--link contact-->
+    <link rel="stylesheet" href="contact.html">
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="flex gap-10 items-center justify-between bg-green-200 p-3 shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" class="small-icon w-5 h-5 md:hidden" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-3 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black " href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black hover:product.html" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black hover:contact.html" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Header file-->
+    <section class="bg-green-200 p-4 flex justify-center gap-10">
+        <div>
+            <p class="mb-4">We offer a wide range of Artifical and Natural flower</p>
+            <h1 class="text-2xl font-bold mb-4">Plant for your Interior</h1>
+            <div>
+                <button class="p-1 round bg-black text-white mb-4">Shop Now</button>
+                <button class="border border-black round p-1 bg-green-200 text-black mb-4">Watch Video</button>
+            </div>
+            <p>100+ Plans Species|100+ clients</p>
+        </div>
+        <div class="hidden md:block">
+            <img class="w-40 h-40" src="./headerimg.jpeg" alt="img">
+        </div>
+    </section>
+    <!--Section file-->
+    <section class="text-center">
+        <h1 class="text-2xl font-bold mt-5">About Us</h1>
+        <p>This site for those who admire the beauty and harmony of nature</p>
+        <div class="mt-3 md:flex justify-between gap-10 items-center">
+            <div class="border border-black p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
+                </svg>
+
+                <h2 class="font-bold">Large Assortment</h2>
+                <p> We offer a wide and vibrant assortment of plants to suit every type of gardener and every kind of
+                    space. From colorful flowering plants that brighten up any garden with seasonal blooms, to lush
+                    indoor plants that bring a touch of greenery to your home or workspace, our collection is designed
+                    to inspire. You’ll find popular houseplants like the Peace Lily, Monstera, and Snake Plant, as well
+                </p>
+            </div>
+            <div class="border border-black p-2 mt-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+
+                <h2 class="font-bold">Free and Fast Shipping</h2>
+                <p>We carefully pack every plant to ensure it arrives fresh, healthy, and ready to thrive in its new
+                    home. Our shipping process is designed to be quick and reliable, so you don’t have to wait long to
+                    start planting and enjoying your greenery. Whether you’re ordering a small succulent for your desk
+                    or a set of flowering shrubs for your backyard, your plants will be delivered straight to your door
+                    at no extra cost. </p>
+            </div>
+            <div class="border border-black p-2 mt-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                </svg>
+
+                <h2 class="font-bold">24/7 Support</h2>
+                <p> We believe that great service doesn’t stop after you place an order that’s why we offer 24/7
+                    customer support to assist you whenever you need help. Whether you have questions about plant care,
+                    need help choosing the right plants for your space, or want to track your order, our friendly
+                    support team is always available. Day or night, weekday or weekend, we're here to make your
+                    gardening experience stress-free and enjoyable. </p>
+            </div>
+        </div>
+    </section>
+    <!--Best seller-->
+    <section class="text-center mt-2 items-center ">
+        <h1 class="text-2xl font-bold">Best Seller</h1>
+        <div class="grid grid-cols-2 mt-2 gap-5 md:grid-cols-4">
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller1.png" alt="img">
+                <h2>New Fantastic Bell Flower Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller2.png" alt="img">
+                <h2>Canna Lily Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller3.png" alt="img">
+                <h2>Amaryllis Flower Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller4.png" alt="img">
+                <h2>Paper Flower Pot</h2>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+    <!--Customer review-->
+    <section>
+        <h1 class="text-center font-bold text-2xl mt-5">Customer Review</h1>
+        <div class="text-white bg-green-800 m-2 p-3">
+            <p>These flowers are absolutely stunning! The colors are so rich and vibrant — it felt like a rainbow blooming in my garden. Each blossom was fresh, healthy, and carefully arranged. I could tell they were grown and picked with love.</p>
+            <p class="text-yellow-100 font-bold">Sophia L., Montreal</p>
+        </div>
+        <div class="text-white bg-green-800 m-2 p-3">
+            <p>I’ve ordered flowers from many places before, but these were truly exceptional. The variety of blooms and the artistic way they were grouped together made them look magical. The fragrance was amazing too — my whole home smelled like a meadow in spring. I'll definitely be a repeat customer</p>
+            <p class="text-yellow-100 font-bold"> David P.,Edmonton</p>
+        </div>
+        <div class="text-white bg-green-800 m-2 p-3">
+            <p>Absolutely breathtaking flowers! The colors were so bright and cheerful, they lifted my mood instantly. Every stem was fresh and full of life. You can tell these aren’t just flowers — they’re carefully grown beauty. I gave them as a gift and the reaction was priceless</p>
+            <p class="text-yellow-100 font-bold"> Nadia S., Halifax</p>
+        </div>
+    </section>
+    <!--News letter-->
+    <section class="text-center">
+        <h1 class="text-2xl font-bold text-center mt-5">Join our News Letter</h1>
+        <p>Singup for our email newspaper to get exclusive discounts,update and more</p>
+        <input class="border border-black m-1 p-2 mt-3 mb-3" style="width: 80%;" type="text"><br>
+        <button class="text-white bg-black p-2 border ">Subscriber</button>
+    </section>
+    <!--Footer-->
+    <section class="text-white bg-green-800 m-2 p-2 mt-3">
+        <h1 class="font-bold text-2xl mt-2">Greenden</h1>
+        <p class="mt-2">Trust us ,We provide nature product</p>
+        <p class="mt-2">&copy;2021 Greenden.com </p>
+    </section>
+</body>
+
+</html>

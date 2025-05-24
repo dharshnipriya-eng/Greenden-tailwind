@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--link tailwindcss-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--link product-->
+    <link rel="stylesheet" href="product.html">
+    <!--link contact-->
+    <link rel="stylesheet" href="contact.html">
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="flex gap-10 items-center justify-between bg-green-200 p-3 shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" class="small-icon w-5 h-5 md:hidden" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-3 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black " href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black hover:product.html" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black hover:contact.html" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--bestseller-->
+    <section class="text-center mt-2 items-center ">
+        <h1 class="text-2xl font-bold">Our Products</h1>
+        <div class="grid grid-cols-2 mt-2 gap-5 md:grid-cols-4">
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller1.png" alt="img">
+                <h2>New Fantastic Bell Flower Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller2.png" alt="img">
+                <h2>Canna Lily Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller3.png" alt="img">
+                <h2>Amaryllis Flower Pot</h2>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="m-5 p-2 hover:shadow-2xl transform hover:-translate-y-2" src="./bestseller4.png" alt="img">
+                <h2>Paper Flower Pot</h2>
+                <p>$20</p>
+            </div>
+        </div>
+    <!--fotter-->
+    </section>
+    <section class="text-white bg-green-800 m-2 p-2 mt-3">
+        <h1 class="font-bold text-2xl mt-2">Greenden</h1>
+        <p class="mt-2">Trust us ,We provide nature product</p>
+        <p class="mt-2">&copy;2021 Greenden.com </p>
+    </section>
+</body>
